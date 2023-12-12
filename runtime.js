@@ -64,17 +64,17 @@ function timeFunction(func, arr) {
     return results.preciseWords;
 }
 
-// Define the arrays
+
 const arrays = [tinyArray, smallArray, mediumArray, largeArray, extraLargeArray];
 
-// Define the functions to test
+
 const functionsToTest = [doublerAppend, doublerInsert];
 
-// Loop over each function
+
 for (let func of functionsToTest) {
     console.log(`Timing results for ${func.name}:`);
 
-    // Loop over each array
+   
     for (let arr of arrays) {
         // Time the function with this array and print the result
         let time = timeFunction(func, arr);
