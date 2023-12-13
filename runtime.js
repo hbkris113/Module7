@@ -81,7 +81,7 @@ for (let func of functionsToTest) {
         console.log(`Array size: ${arr.length}, Time: ${time}`);
     }
 
-    console.log('\n'); // Print a newline for readability
+    console.log('\n');
 }
 
 
